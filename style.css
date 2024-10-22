@@ -1,0 +1,276 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    top: 2%;
+    color: #ffffff;
+}
+#logo{
+    margin-left: 4%;
+    width: 80px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5%;
+    width: 50%;
+    list-style: none;
+    height: 100%;
+    margin-top: 1%;
+}
+nav li{
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav button{
+    margin-right: 15%;
+    width: 12%;
+    padding: .8% 0;
+    color: white;
+    background-color: #ad8b3a;
+}
+#login{
+    width: 8%;
+    margin-left: 120px;
+}
+select{
+    background-color: transparent;
+    color: white;
+    border: solid transparent;
+}
+.search{
+    background-color: #ad8b3a;
+    padding: 10px;
+    border: solid;
+    border-color: #ad8b3a;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 3%;
+}
+.chat{
+    position: fixed;
+    width: 60px;
+    bottom: 3%;
+    right: 3%;
+    z-index: 100;
+}
+.chat img{
+    width: 100%;
+}
+.taj{
+    position: relative;
+    height: fit-content;
+}
+.taj div{
+    display: flex;
+    justify-content: center;
+}
+.parts{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    position: absolute;
+    top: 0%;
+    margin-left: 189px;
+    height: 100%;
+}
+.part{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid white 1px;
+    border-radius: 5px;
+    position: relative;
+    align-items: center;
+    color: transparent;
+}
+
+.part .h52{
+    position: absolute;
+    color: white;
+    bottom: 7%;
+}
+.p1:hover .h51, .p1:hover p{
+    color: black;
+}
+.p1:hover .h52{
+    color: transparent;
+}
+.p1:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.p2:hover .h51, .p2:hover p{
+    color: black;
+}
+.p2:hover .h52{
+    color: transparent;
+}
+.p2:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.p3:hover .h51, .p3:hover p{
+    color: black;
+}
+.p3:hover .h52{
+    color: transparent;
+}
+.p3:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+.p4:hover .h51, .p4:hover p{
+    color: black;
+}
+.p4:hover .h52{
+    color: transparent;
+}
+.p4:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+section{
+    margin-bottom: 9%;
+}
+section a{
+    color: #ad8b3a;
+}
+.sectionhead{
+    margin-bottom: 4%;
+    flex-wrap: nowrap;
+}
+.section2content{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.section2content a{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.section2content p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.section2img{
+    width: 30%;
+    position: relative;
+}
+.section2img img{
+width: 100%;
+}
+.section2img div{
+    position: absolute;
+    bottom: -13%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: white;
+}
+.section3img{
+    width: 30%;
+}
+.section3img img{
+    width: 100%;
+}
+#section32{
+    bottom:-8%;
+    right: 0;
+    background-color: white;
+}
+.section6{
+    margin-bottom: 9%;
+}
+.section6content{
+    flex-wrap: nowrap;
+}
+.p61,.p62,.p63{
+    width: 270px;
+    right: 0%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -30px;
+    padding: 15px 50px 5px 15px;
+}
+.section7{
+    margin-bottom: 0;
+}
+/* 
+
+
+
+ */
+
+.section7 img{
+    width: 100%;
+}
+footer{
+    height: 80vh;
+    background-color: black;
+    padding: 50px 200px;
+    color: white;
+}
+#fd1{
+    padding-bottom: 4%;
+}
+#cwu{
+    margin-right: 2%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#fd21 input{
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 300px;
+}
+#fd21 button{
+    padding:10px 20px;
+}
+#fd3{
+    margin-right: 6%;
+}
+ul{
+    list-style: none;
+}
+
+#fd4{
+    width: 15%;
+}
+#fd4 img{
+    margin-left: 3%;
+}
+#fd52{
+    text-align: right;
+}
+#fd52 a{
+    margin: 0px 3px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.uparrow{
+    padding: 1% 1.5%;
+    width: fit-content;
+    margin-left: -100px;
+    margin-top: -70px;
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.31);
+}
